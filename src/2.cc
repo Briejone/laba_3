@@ -16,4 +16,4 @@ int APowXModP(int base, int degree, int module_value) {
 	res = res % module_value;
 
     return res;
-}
+} 
