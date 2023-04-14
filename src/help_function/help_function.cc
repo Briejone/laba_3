@@ -21,6 +21,7 @@ int find_inverse(int a, int m) {
 }
 
 int pow_mod_10(int num, int pow) {
+    num %= 10;
     int result = 1;
     for (int i = 0; i < pow; i++) {
         result *= num;
