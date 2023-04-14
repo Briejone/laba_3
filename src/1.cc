@@ -3,9 +3,8 @@
 
 void Q1() {
 	std::cout << "x\t|y\n";
-	for (int x = -9; x < 7; x++) {
-        static double y = 0;
-
+	double y = 0;
+	for (int x = -9; x <= 7; x++) {
 		if (x >= -9 && x <= -7) {
 			y = 0;
 		}
@@ -26,7 +25,7 @@ void Q1() {
 			y = 4 - ((x - 2) * 2);
 		}
 
-		if (x > 4 || x <= 7) {
+		if (x > 4 && x <= 7) {
 			y = 0;
 		}
 

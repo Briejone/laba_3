@@ -17,3 +17,17 @@ int APowXModP(int base, int degree, int module_value) {
 
     return res;
 } 
+// int APowXModP(int base, int degree, int module_value) {
+//     int res = 1;
+//     base %= module_value;
+
+//     while (degree > 0) {
+//         if (degree % 2 == 1) {
+//             res = (res * base) % module_value;
+//         }
+//         degree >>= 1;
+//         base = (base * base) % module_value;
+//     }
+
+//     return res;
+// }
