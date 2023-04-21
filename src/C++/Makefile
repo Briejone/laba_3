@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS= -Wall -Wextra
+CFLAGS= -Wall -Wextra -Werror
 
 all: compile
 

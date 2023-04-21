@@ -2,7 +2,7 @@
 
 
 void Q1() {
-	std::cout << "x\t|y\n";
+	std::cout << "x\ty\n";
 	double y = 0;
 	for (int x = -9; x <= 7; x++) {
 		if (x >= -9 && x <= -7) {
